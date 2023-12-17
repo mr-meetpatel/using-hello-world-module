@@ -10,6 +10,7 @@ repositories {
 }
 
 dependencies {
+    implementation(project(":Module1"))
     testImplementation 'org.jetbrains.kotlin:kotlin-test'
 }
 
